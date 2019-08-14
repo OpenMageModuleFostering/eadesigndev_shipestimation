@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Eadesigndev_Shipestimation</name>
+    <version>1.0.1</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Extension license name (OSL v3.0)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Estimate shipping</summary>
+    <description>The extension get the estimated cost for shipping for country, regions and postal code.</description>
+    <notes>First version.</notes>
+    <authors><author><name>EaDesign</name><user>eadesign</user><email>office@eadesign.ro</email></author></authors>
+    <date>2015-10-14</date>
+    <time>09:28:27</time>
+    <contents><target name="magelocal"><dir name="Eadesigndev"><dir name="Shipestimation"><dir name="Helper"><file name="Data.php" hash="5dae9c8cd88a46cb9d35f72661426df8"/></dir><dir name="controllers"><file name="IndexController.php" hash="e542194f5ace60ef5cd2ca7fe67d67f1"/></dir><dir name="etc"><file name="config.xml" hash="fd8cdbb68a81b9676f3010a6054983df"/><file name="system.xml" hash="21a5b1618a36b44d9401b6cd4927adc9"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="eadesigndev"><dir name="shipestimation"><dir name="catalog"><dir name="product"><dir name="view"><file name="estimate.phtml" hash="8979d1231e4a9cf8bc956e83c727f22f"/></dir></dir></dir><file name="shipestimation.phtml" hash="814331439e53749ddb2105bcfd4dde0a"/></dir></dir></dir><dir name="layout"><dir name="eadesigndev"><file name="shipestimation.xml" hash="9a77c641f4c4fe5d925ee5cbb777ce9a"/></dir></dir></dir></dir><dir name="rwd"><dir name="default"><dir name="layout"><dir name="eadesigndev"><file name="shipestimation.xml" hash="9a77c641f4c4fe5d925ee5cbb777ce9a"/></dir></dir><dir name="template"><dir name="eadesigndev"><dir name="shipestimation"><dir name="catalog"><dir name="product"><dir name="view"><file name="estimate.phtml" hash="8979d1231e4a9cf8bc956e83c727f22f"/></dir></dir></dir><file name="shipestimation.phtml" hash="814331439e53749ddb2105bcfd4dde0a"/></dir></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="eadesigndev"><dir name="shipestimation"><file name="71222.png" hash="f596a4fd67aa4a6eccc019c1722fa3cb"/><file name="bkg_main2.gif" hash="cf18ba9f7c7e6b058b439cde1a897e9c"/><dir name="css"><file name="default.css" hash="d57f7fffaa9f7f07137168eb515fd29e"/></dir></dir></dir></dir></dir><dir name="rwd"><dir name="default"><dir name="eadesigndev"><dir name="shipestimation"><file name="71222.png" hash="f596a4fd67aa4a6eccc019c1722fa3cb"/><file name="bkg_main2.gif" hash="cf18ba9f7c7e6b058b439cde1a897e9c"/><dir name="css"><file name="default.css" hash="acd3d7eaf9cfd1ca7bf33d6ece22c6fc"/></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Eadesigndev_Shipestimation.xml" hash="e9c7ced8afd9a27b5917d269c354726a"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>5.6.3</max></php></required></dependencies>
+</package>
