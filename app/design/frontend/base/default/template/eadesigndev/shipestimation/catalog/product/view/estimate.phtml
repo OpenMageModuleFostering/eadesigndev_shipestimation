@@ -55,6 +55,17 @@ $ifTrue=Mage::Helper('shipestimation')->ifItApplies();
                     </div>
                 </li>
             </div>
+            <div class="city">
+                <label
+                    for="city_id"<?php if ($shippingblock->isCityRequired()) echo ' class="required"' ?>><?php if ($shippingblock->isCityRequired()) echo '<em>*</em>' ?><?php echo Mage::helper('checkout')->__('City') ?></label>
+
+                <div class="input-box">
+                    <input
+                        class="input-text validate-city<?php if ($shippingblock->isCityRequired()): ?> required-entry<?php endif; ?>"
+                        type="text" id="city_id" name="estimate_city"
+                        value="<?php echo $shippingblock->escapeHtml($shippingblock->isCityRequired()) ?>"/>
+                </div>
+            </div>
             <div class="zip-code">
                 <label
                     for="postcode"<?php if ($shippingblock->isZipCodeRequired()) echo ' class="required"' ?>><?php if ($shippingblock->isZipCodeRequired()) echo '<em>*</em>' ?><?php echo Mage::helper('checkout')->__('Zip/Postal Code') ?></label>
@@ -110,6 +121,7 @@ $ifTrue=Mage::Helper('shipestimation')->ifItApplies();
 
             var country = $('country').value;
             var regionId = $('region_id').value;
+            var cityId = $('city_id').value;
             var zip = $('postcode').value;
 
             <?php if($_product):?>
@@ -138,6 +150,7 @@ $ifTrue=Mage::Helper('shipestimation')->ifItApplies();
                     parameters: {
                         country_id: country,
                         region_id: regionId,
+                        city_id: cityId,
                         zip_id: zip,
                         productId: productId
                     }

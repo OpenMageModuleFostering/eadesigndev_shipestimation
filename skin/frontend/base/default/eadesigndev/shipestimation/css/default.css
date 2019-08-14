@@ -191,7 +191,7 @@
 }
 .alert_message .adress{
 	padding-left: 20px;
-	padding-top: 15px;
+	padding-top: 5px;
 }
 .alert_message .adress-title{
 	padding-bottom: 10px;
@@ -203,6 +203,7 @@
 .adress .buttons-set{
 	padding-bottom: 10px;
 	border: none;
+	background-color: #f6f8f9;
 }
 .car-cost{
 	background: url('../../shipestimation/71222.png') no-repeat center left;
@@ -225,4 +226,7 @@
 }
 .shipping-estimate{
 	margin-top: 35px;
+}
+.city{
+	padding-bottom: 10px;
 }

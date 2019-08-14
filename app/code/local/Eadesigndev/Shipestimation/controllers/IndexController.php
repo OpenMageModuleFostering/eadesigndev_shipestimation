@@ -32,6 +32,7 @@ class Eadesigndev_Shipestimation_IndexController extends Mage_Core_Controller_Fr
 
         $country = $this->getRequest()->getParam('country_id');
         $regionId = $this->getRequest()->getParam('region_id');
+        $cityId = $this->getRequest()->getParam('city_id');
         $zipId = $this->getRequest()->getParam('zip');
         $productId = $this->getRequest()->getParam('productId');
 
@@ -42,6 +43,7 @@ class Eadesigndev_Shipestimation_IndexController extends Mage_Core_Controller_Fr
         $shippingAddress = $quote->getShippingAddress();
         $shippingAddress->setCountryId($country);
         $shippingAddress->setRegionId($regionId);
+        $shippingAddress->setCity($cityId);
         $shippingAddress->setPostcode($zipId);
         $shippingAddress->setCollectShippingRates(true);
 

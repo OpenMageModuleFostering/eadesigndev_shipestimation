@@ -22,7 +22,7 @@
 <config>
     <modules>
         <Eadesigndev_Shipestimation>
-            <version>1.0.1</version>
+            <version>1.0.2</version>
         </Eadesigndev_Shipestimation>
     </modules>
     <global>
