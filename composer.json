@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Eadesigndev_Shipestimation",
+    "name": "OpenMageModuleFostering\/Eadesigndev_Shipestimation",
     "type": "magento-module",
     "license": "Extension-license-name-(OSL-v3.0)",
     "homepage": "",
     "description": "Estimate shipping",
     "authors": [
-    {
-        "name": "EaDesign",
-        "email": "office@eadesign.ro"
-    }
-],
+        {
+            "name": "EaDesign",
+            "email": "office@eadesign.ro"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
