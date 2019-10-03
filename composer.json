@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Eadesigndev_Shipestimation",
+    "name": "openmage-module-fostering\/eadesigndev_shipestimation",
     "type": "magento-module",
-    "license": "Extension-license-name-(OSL-v3.0)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Estimate shipping",
     "authors": [
